@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .content-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1611095566888-f1446042c8fc?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.btn1 button {
+    padding: 5px 20px;
+    background: #ff4d73;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    position: absolute;
+    right: 4%;
+    top: 5%;
+    transition: .5s;
+}
+
+.btn1 button:hover {
+    background: red;
+    color: #fff;
+}
+
+.fas {
+    margin-right: 8px;
+}
+
+.banner-text {
+    width: 80%;
+    color: #fff;
+    margin: 16% auto 0;
+    text-align: center;
+
+
+}
+
+.banner-text h2 {
+    margin-top: 50px;
+    font-size: 64px;
+}
+
+.banner-text p {
+    font-size: 14px;
+    margin: 20px 0 50px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ff4d73;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    width: 180px;
+    margin: auto;
+    background: #ff4d73;
+    transition: .5s;
+}
+
+.banner-text a:hover {
+    background: transparent;
+    color: #ff4d73;
+
+}
+
+.content-box {
+    background: #f4f3ff;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1::after {
+    content: "";
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 220px;
+    margin: 20px auto 50px;
+}
+
+.services .icon {
+    font-size: 29px;
+    margin: 20px auto;
+    padding: 18px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ff4d73;
+    border-radius: 20%;
+    color: #ff4d73;
+}
+
+.services p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.services span {
+    color: #ff4d73;
+    transition: .5s;
+}
+
+.services .col-md-3:hover {
+    background: #ff4d73;
+    cursor: pointer;
+    color: white;
+    box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+    transition: .5s;
+}
+
+.services .col-md-3:hover .icon {
+    border: 1px solid #fff;
+    color: white;
+
+}
+
+.services .col-md-3:hover p {
+
+    color: white;
+
+}
+
+.services .col-md-3:hover span {
+
+    color: white;
+
+}
+
+.features1 {
+    height: 100vh;
+    width: 100%;
+    background: #ecf0f1;
+
+}
+
+.feature-img img {
+    width: 100%;
+
+}
+
+.features1 .fas {
+    font-size: 15px;
+    color: #ff5722;
+
+}
+
+.price p {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -40px;
+
+}
+
+.ratting {
+    float: right;
+    padding: 3px;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.feature-img {
+    position: relative;
+}
+
+.feature-details {
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4 {
+    font-weight: 600;
+    margin-top: 20px;
+    color: #ff5722;
+}
+
+.feature-box {
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.28);
+    margin-bottom: 30px;
+}
+
+.gallery {
+    padding: 100px 0;
+    background: #ddd;
+}
+
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-box h4 {
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.banner {
+    height: 80%;
+    background-image: url(https://images.pexels.com/photos/6016763/pexels-photo-6016763.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 15% 0;
+}
+
+.banner-highlights {
+    padding: 70px 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+}
+
+.booking-btn {
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #ff4d73;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+.booking-btn:hover {
+    background: transparent;
+    color: #ff4d73;
+}
+
+.users-feedback {
+    padding: 100px 0;
+
+}
+
+.user-review {
+
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p {
+    padding: 50px 10px 10px 10px;
+}
+
+/* features */
+.feature h2 {
+    margin-top: 130px;
+}
+
+
+.feature h1::after {
+    content: "";
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 50px;
+}
+
+.feature ul {
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.feature ul li {
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+
+.feature ul li::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background: #ff4d73;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+
+.feature img {
+    margin-top: 160px;
+}
+
+.footer h1 {
+    padding-top: 50px;
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-group input {
+    border-radius: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.contact-form button {
+    border: none;
+    background: #ff4d73;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 15px;
+}
+
+.contact-info .follow {
+    background-color: #fff;
+    padding: 8px;
+    margin: 15px;
+
+}
+
+.contact-info .fas {
+    margin: 10px !important;
+    font-size: 20px !important;
+    color: #ff4d73 !important;
+    font-weight: bold !important;
+    padding-right: 20px !important;
+}
+
+.contact-info span {
+    margin-left: 10px;
+}
+
+.contact-info .fab {
+    margin: 10px !important;
+    margin-left: 10px !important;
+    font-size: 20px !important;
+    color: #ff4d73 !important;
+    font-weight: bold !important;
+    padding-right: 15px !important;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.contact-info .fab:hover {
+    color: red !important;
+    scale: 1.22;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.fa-heart {
+    color: red;
+    font-size: 20px;
+}
+
+.footer hr {
+    margin-top: 50px;
+    background: #ff4d73;
+}
